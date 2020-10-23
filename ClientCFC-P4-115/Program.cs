@@ -4,7 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ServiceModel;
-using ServiceMtk_P2_115;
+using ServiceMtk_P2_115;
+
+
+
+
 
 namespace ClientCFC_P4_115
 {
@@ -25,7 +29,8 @@ namespace ClientCFC_P4_115
             double hasilBagi = obj.Bagi(2, 2);
             Console.WriteLine("2 / 2 = " + hasilBagi);
             Console.ReadLine();
-            Koordinat objk = new Koordinat();
+            Koordinat objk = new Koordinat();
+
         }
     }
 }
